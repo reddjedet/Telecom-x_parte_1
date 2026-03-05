@@ -2,7 +2,7 @@
 
 ## Descripcion General
 
-Telecom X es una empresa de telecomunicaciones que enfrenta una tasa de cancelacion de clientes (churn) de aproximadamente el 26.5% sobre su base activa. Este nivel de abandono representa un riesgo operativo y financiero significativo, dado que el costo de retener a un cliente existente es sustancialmente menor que el de adquirir uno nuevo.
+Telecom X es una empresa de telecomunicaciones que enfrenta una tasa de cancelacion de clientes (churn) de aproximadamente el 26.5% sobre su base activa. Este nivel de abandono representa un riesgo operativo y financiero significativo, dado que el costo de retener a un cliente es considerablemente menor que el de adquirir uno nuevo.
 
 El presente proyecto aborda ese problema desde el rol de asistente de analisis de datos. El objetivo es recopilar, procesar y analizar los datos disponibles para que el equipo de Data Science pueda desarrollar modelos predictivos sobre un dataset limpio, estandarizado y documentado. El trabajo cubre el ciclo completo de ETL (Extraccion, Transformacion y Carga) seguido de un Analisis Exploratorio de Datos (EDA) orientado a identificar los factores que explican el abandono.
 
@@ -24,9 +24,9 @@ El presente proyecto aborda ese problema desde el rol de asistente de analisis d
 ## Estructura del Proyecto
 
 ```
-telecom-x-churn/
+Telecom-x_parte_1/
 ├── telecomx_churn_final.ipynb   # Notebook principal con ETL, EDA e informe
-├── datos_tratados.csv           # Dataset procesado exportado al final del pipeline
+├── datos_tratados.csv           # Dataset (procesado) exportado al final del pipeline
 └── README.md                    # Este archivo
 ```
 
@@ -111,7 +111,7 @@ pip install pandas numpy matplotlib seaborn requests scipy
 Luego abrir el notebook con:
 
 ```bash
-jupyter notebook telecomx_churn_final.ipynb
+jupyter notebook telecomx_parte1.ipynb
 ```
 
 ### Nota sobre tiempos de carga
@@ -175,4 +175,4 @@ El dataset procesado ocupa menos de 5 MB en memoria, por lo que no hay limitacio
 
 ## Autor
 
-Christian Quidel — Asistente de Analisis de Datos
+Christian Quidel — https://www.linkedin.com/in/quidelchristian/
