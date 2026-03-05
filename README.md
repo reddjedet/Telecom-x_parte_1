@@ -98,7 +98,7 @@ El EDA se desarrolla enteramente sobre el DataFrame transformado sin modificarlo
 
 ### Opcion A: Google Colab (recomendado)
 
-Abrir el archivo `telecomx_churn_final.ipynb` directamente en Google Colab. Las librerias principales (Pandas, NumPy, Matplotlib, Seaborn, Requests) ya estan disponibles en el entorno base de Colab sin instalacion adicional.
+Se puede revisar el archivo directamente en colab, listo para correr, entrando en este enlace [Clic aquí para ver mi proyecto](https://colab.research.google.com/drive/14ewnjwzQZSol8Y1RJD-1W_VKh2hSIOTp?authuser=1)
 
 ### Opcion B: Entorno local
 
